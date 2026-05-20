@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+secure_systems.db
+storage
+reports
+.env
+.git
+.idea
