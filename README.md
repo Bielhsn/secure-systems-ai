@@ -155,8 +155,8 @@ flowchart TD
     API -->|Consulta status| DB
     API -->|Download relatório| Reports
 
-    User -->|GET /status/{job_id}| API
-    User -->|GET /report/{job_id}| API
+    User -->|Consulta status| API
+    User -->|Download PDF| API
 ```
 
 ---
